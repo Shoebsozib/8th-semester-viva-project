@@ -1,0 +1,591 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+header {
+    background: #000000;
+}
+
+.navbar-brand img{
+    width: 20%;
+}
+
+.navbar .container {
+    height: 68px;
+    margin-top: 4px;
+}
+
+header .navbar .nav-item {
+    margin-left: 35px;
+}
+
+header .navbar .nav-link {
+    color: #d23606;
+    font-weight: 700;
+}
+
+header .navbar .nav-item .custom-btn {
+    font-family: "Roboto", sans-serif;
+    background: #d23606;
+    padding: 10px 28px;
+    border-radius: 10px;
+    color: white !important;
+    border: 3px solid #d23606;
+}
+
+header .navbar .nav-item .custom-btn:hover {
+    font-family: "Roboto", sans-serif;
+    background: white;
+    padding: 10px 28px;
+    border-radius: 10px;
+    color: #d23606 !important;
+    border: 3px solid #d23606;
+}
+
+/* Banner Section */
+.banner {
+    background: url(/img/banner4.jpg) center center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #d23606;
+    text-shadow: 3px 3px #ffffff;
+    margin-bottom: 240px;
+}
+
+.banner-content p {
+    font-size: 23px;
+    color: #446f13;
+    font-weight: 700;
+    text-shadow: 3px 3px white;
+    
+}
+
+.banner-content{
+    margin: 120px 0px 0px 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d23606;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px ;
+    
+    transform: 0.5s;
+    border: 3px solid #d23606;
+}
+
+.cta-button:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #d23606;
+    text-decoration: none;
+    border-radius: 10px ;
+    transform: 0.5s;
+    border: 3px solid #d23606;
+}
+
+/* Menu Section */
+.menu-section, .about-section, .testimonials-section, .gallery-section, .reservation-section, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.menu-section{
+    background: #000000;
+}
+
+
+.menu-title h1{
+    color: #d23606;
+    margin-bottom: 30px;
+    font-weight: 700;
+    
+}
+
+.menu-title{
+    margin:40px auto 70px;
+}
+
+.menu-section .underline {
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+    
+}
+
+
+.menu-section .menu-title:hover .underline {
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+
+
+
+.online-courses .course-card {
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.online-courses .course-card .cc-body {
+    margin: 20px 0px 35px;
+}
+
+.menu-section h3 {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 36px; */
+    text-align: center;
+    color: #d23606;
+}
+
+.menu-section .cc-body p {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+.menu-section .cc-btns {
+    margin: 20px auto 50px;
+}
+
+.menu-section .cc-btns .btn-info {
+    font-family: "Roboto", sans-serif;
+    background: #d23606;
+    padding: 08px 28px;
+    border-radius: 10px;
+    color: white !important;
+    border: 1px solid #d23606;
+}
+
+.menu-section .cc-btns .btn-info:hover {
+    font-family: "Roboto", sans-serif;
+    background: white;
+    padding: 08px 28px;
+    border-radius: 10px;
+    color: #d23606 !important;
+    border: 1px solid #d23606;
+}
+
+/* About Us section css */
+
+.about-Us{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.about-title{
+    margin: 40px 0px 20px 0px;
+}
+
+.about-title h1{
+    font-weight: 700;
+    color: #d23606;
+}
+
+
+.about-title .underline {
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.about-title:hover .underline {
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.about-Us p{
+    color: #d23606;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+}
+
+/* testmonial-section */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+    background: #000000;
+}
+
+.testimonial .testimonial-title{
+    text-align: center;
+}
+
+
+.testimonial .testimonial-title h1{
+    color: #d23606;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.testimonial .testimonial-title p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.testimonial-title .underline {
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    margin: 40px auto 40px;
+    transition: 0.5s;
+}
+
+.testimonial-title:hover .underline {
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    margin: 40px auto 40px;
+    transition: 0.5s;
+}
+
+.testimonial .parent{
+    position: relative;
+    margin: 50px 0 20px;
+    width: 67%;
+    background: white;
+    padding: 20px 15px 10px;
+}
+
+.testimonial .parent p{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-style: italic;
+}
+
+.testimonial .parent .child{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+    background: white;
+    bottom: -9px;
+    left: 16px;
+
+}
+
+.testimonial .intro{
+    display: flex;
+}
+
+.testimonial .intro img{
+    border: 2px solid #d23606;
+}
+
+.testimonial .intro .profile{
+    margin-right: 20px;
+}
+
+
+.profile-content h5{
+    color: #d23606;
+}
+
+.profile-content p{
+    color: white;
+}
+
+/* Gallery section */
+.gallery-section {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallary-title{
+    margin-bottom: 70px;
+}
+
+.gallary-title h1 {
+    font-weight: 700;
+    color: #d23606;
+}
+
+.gallary-title .underline{
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+    
+}
+
+.gallary-title:hover .underline {
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: calc(33.333% - 20px);
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d23606;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+
+/* <!-- Reservation Section css --> */
+
+.reservation-section {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.reservation-title{
+    margin: 40px 0px 60px 0px;
+}
+
+.reservation-title h1 {
+    font-weight: 700;
+    color: #d23606;
+}
+
+.reservation-title .underline {
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.reservation-title:hover .underline {
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.reservation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border-top: 1px solid #d23606;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #d23606;
+    outline: none;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d23606;
+    border: 1px solid #d23606;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.btn-submit:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid #d23606;
+    color: #d23606;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* contact section css */
+.contact{
+    width: 100%;
+    padding: 55px 0px 0px;
+    background-color: white;
+    border-bottom: 5px solid #d23606;
+    border-top: 5px solid #d23606;
+    
+}
+
+.col-lg-12 h1{
+    font-weight: 700;
+    color: #d23606;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.col-lg-12{
+    margin: 40px 0px;
+}
+
+.col-lg-12 .underline{
+    width: 50px;
+    height: 4px;
+    background: #d23606;
+    transition: 0.5s;
+    margin: 0 auto 0;
+}
+
+.col-lg-12:hover .underline{
+    width: 200px;
+    height: 4px;
+    background: #d23606;
+    transition: 0.5s;
+
+}
+.contact-inner{
+    margin-bottom: 60px;
+}
+
+
+.contact i {
+    color: #d23606;
+    font-size: 25px;
+    border: 1px solid #d23606;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 21px 31px 20px 25px;
+    margin-bottom: 20px;
+}
+
+.contact i:hover {
+    color: white;
+    background: #d23606;
+    font-size: 25px;
+    border: 1px solid #d23606;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 21px 31px 20px 25px;
+    margin-bottom: 20px;
+}
+
+
+.contact-inner p{
+    color: #000000;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+
+.footer-nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover {
+    color: #ff5733;
+}
